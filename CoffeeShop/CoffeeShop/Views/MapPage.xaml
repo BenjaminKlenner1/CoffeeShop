@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="CoffeeShop.Views.MapPage">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <maps:Map>
+                <x:Arguments>
+                    <maps:MapSpan>
+                        <x:Arguments>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>-36.857354</x:Double>
+                                    <x:Double>174.629411</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <x:Double>0.01</x:Double>
+                            <x:Double>0.01</x:Double>
+                        </x:Arguments>
+                    </maps:MapSpan>
+                </x:Arguments>
+                <maps:Map.MapElements>
+                    <maps:Circle StrokeColor="#88FF0000"
+                           StrokeWidth="8"
+                           FillColor="#88FFC0CB">
+                        <maps:Circle.Center>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>-36.857354</x:Double>
+                                    <x:Double>174.629411</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Circle.Center>
+                        <maps:Circle.Radius>
+                            <maps:Distance>
+                                <x:Arguments>
+                                    <x:Double>10</x:Double>
+                                </x:Arguments>
+                            </maps:Distance>
+                        </maps:Circle.Radius>
+                    </maps:Circle>
+                </maps:Map.MapElements>
+                <maps:Map.Pins>
+                    <maps:Pin Label="Coffee on Lincoln"
+                       Address="181 Universal Drive"
+                       Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>-36.857354</x:Double>
+                                    <x:Double>174.629411</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+                </maps:Map.Pins>
+            </maps:Map>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

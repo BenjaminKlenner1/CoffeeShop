@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffeeShop.Views.AboutPage"
+             xmlns:vm="clr-namespace:CoffeeShop.ViewModels"
+>
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            <Label Text="Coffee on Lincoln" FontSize="36" FontAttributes="Bold" />
+            <Image Source="CafeAboutUs.jpg"/>
+            <Label Text="181 Universal Drive&#x0a;Henderson&#x0a;0610&#x0a;Auckland" FontSize="22" />
+            <Label Text="0800 804 804  |  LincolnCoffee@gmail.com"/>
+        </StackLayout>
+        </ScrollView>
+
+</ContentPage>
