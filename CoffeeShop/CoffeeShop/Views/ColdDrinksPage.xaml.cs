@@ -10,15 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace CoffeeShop.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MapPage : ContentPage
+    public partial class ColdDrinksPage : ContentPage
     {
-        public MapPage()
+        public ColdDrinksPage()
         {
             InitializeComponent();
-        }
-        private void button1Click(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new MapPage();
         }
     }
 }

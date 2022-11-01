@@ -16,5 +16,27 @@ namespace CoffeeShop.Views
         {
             InitializeComponent();
         }
+
+        private async void Espresso_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EspressoPage());
+        }
+
+        private async void HotDrinks_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HotDrinksPage());
+        }
+
+        private async void ColdDrinks_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ColdDrinksPage());
+        }
+
+        private async void QuickBites_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new QuickBitesPage());
+        }
+        
+   
     }
 }

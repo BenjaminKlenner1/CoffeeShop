@@ -18,7 +18,7 @@
         <ScrollView>
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
             <Label Text="Coffee on Lincoln" FontSize="36" FontAttributes="Bold" />
-            <Image Source="CafeAboutUs.jpg"/>
+            <Image Source="CafeAboutUs" />
             <Label Text="181 Universal Drive&#x0a;Henderson&#x0a;0610&#x0a;Auckland" FontSize="22" />
             <Label Text="0800 804 804  |  LincolnCoffee@gmail.com"/>
         </StackLayout>

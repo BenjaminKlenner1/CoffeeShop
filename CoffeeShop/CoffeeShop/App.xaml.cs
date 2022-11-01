@@ -15,6 +15,7 @@ namespace CoffeeShop
 
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
+            
         }
 
         protected override void OnStart()
