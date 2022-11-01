@@ -8,15 +8,27 @@
 
         <StackLayout>
             <StackLayout>
-                <Frame>
-                    <Label Text="Bagel" TextColor="Black" FontSize="20"></Label>
-                </Frame>
-                <Frame>
-                    <Label Text="Eggs Benedict" TextColor="Black" FontSize="20"></Label>
-                </Frame>
-                <Frame>
-                    <Label Text="Pancakes" TextColor="Black" FontSize="20" ></Label>
-                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Image WidthRequest="150" Source="Bagel" />
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Bagel" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                        <Label Text="$10.00" FontSize="16" Margin="20,0,0,0"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image WidthRequest="150" Source="EggsBenedict" />
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Eggs Benedict" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                        <Label Text="$12.00" FontSize="16" Margin="20,0,0,0"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image WidthRequest="150" Source="Pancake" />
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Pancakes" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                        <Label Text="$14.00" FontSize="16" Margin="20,0,0,0"></Label>
+                    </StackLayout>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

@@ -6,12 +6,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="CoffeeLogo.jpg" />
+    <None Remove="Bagel.jpg" />
+    <None Remove="EggsBenedict.jpg" />
+    <None Remove="Pancake.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Americano.jpg" />
+    <EmbeddedResource Include="Bagel.jpg" />
     <EmbeddedResource Include="CafeAboutUs.jpg" />
+    <EmbeddedResource Include="Cappucino.jpg" />
+    <EmbeddedResource Include="ChocolateMilk.jpg" />
     <EmbeddedResource Include="CoffeeLogo.jpg" />
+    <EmbeddedResource Include="ColdBrew.jpg" />
+    <EmbeddedResource Include="EggsBenedict.jpg" />
+    <EmbeddedResource Include="HotChocolate.jpg" />
+    <EmbeddedResource Include="Juice.jpg" />
+    <EmbeddedResource Include="Latte.jpg" />
+    <EmbeddedResource Include="Pancake.jpg" />
+    <EmbeddedResource Include="WhiteChocolate.jpg" />
   </ItemGroup>
 
   <ItemGroup>

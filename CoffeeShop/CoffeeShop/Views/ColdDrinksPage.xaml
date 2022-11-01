@@ -5,15 +5,27 @@
              Title="Cold Drinks">
     <ContentPage.Content>
         <StackLayout>
-            <Frame>
-                <Label Text="Cold Brew" TextColor="Black" FontSize="20"></Label>
-            </Frame>
-            <Frame>
-                <Label Text="Iced Coffee" TextColor="Black" FontSize="20"></Label>
-            </Frame>
-            <Frame>
-                <Label Text="Juice" TextColor="Black" FontSize="20"></Label>
-            </Frame>
+            <StackLayout Orientation="Horizontal">
+                <Image WidthRequest="150" Source="ColdBrew" />
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Cold Brew" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                    <Label Text="$2.00" FontSize="16" Margin="20,0,0,0"></Label>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image WidthRequest="150" Source="ChocolateMilk" />
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Chocolate Milk" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                    <Label Text="$2.00" FontSize="16" Margin="20,0,0,0"></Label>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image WidthRequest="150" Source="Juice" />
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Juice" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                    <Label Text="$2.00" FontSize="16" Margin="20,0,0,0"></Label>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

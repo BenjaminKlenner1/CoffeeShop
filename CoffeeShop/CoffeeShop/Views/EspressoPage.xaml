@@ -5,15 +5,28 @@
              Title="Espresso">
     <ContentPage.Content>
         <StackLayout>
-            <Frame>
-                <Label Text="Americano" TextColor="Black" FontSize="20"></Label>
-            </Frame>
-            <Frame>
-                <Label Text="Latte" TextColor="Black" FontSize="20"></Label>
-            </Frame>
-            <Frame>
-                <Label Text="Cappucino" TextColor="Black" FontSize="20"></Label>
-            </Frame>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image WidthRequest="150" Source="Americano" />
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Americano" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                    <Label Text="$2.00" FontSize="16" Margin="20,0,0,0"></Label>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image WidthRequest="150" Source="Latte" />
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Latte" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                    <Label Text="$2.00" FontSize="16" Margin="20,0,0,0"></Label>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image WidthRequest="150" Source="Cappucino" />
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Cappuccino" TextColor="Black" FontSize="20" Margin="0,50,0,0"></Label>
+                    <Label Text="$2.00" FontSize="16" Margin="20,0,0,0"></Label>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
