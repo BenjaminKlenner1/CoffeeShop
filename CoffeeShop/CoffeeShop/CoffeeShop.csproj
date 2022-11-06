@@ -8,6 +8,8 @@
   <ItemGroup>
     <None Remove="Bagel.jpg" />
     <None Remove="EggsBenedict.jpg" />
+    <None Remove="Facebook.jpg" />
+    <None Remove="Instagram.jpg" />
     <None Remove="Pancake.jpg" />
   </ItemGroup>
 
@@ -20,7 +22,9 @@
     <EmbeddedResource Include="CoffeeLogo.jpg" />
     <EmbeddedResource Include="ColdBrew.jpg" />
     <EmbeddedResource Include="EggsBenedict.jpg" />
+    <EmbeddedResource Include="Facebook.jpg" />
     <EmbeddedResource Include="HotChocolate.jpg" />
+    <EmbeddedResource Include="Instagram.jpg" />
     <EmbeddedResource Include="Juice.jpg" />
     <EmbeddedResource Include="Latte.jpg" />
     <EmbeddedResource Include="Pancake.jpg" />
